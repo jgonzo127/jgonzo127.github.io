@@ -248,7 +248,7 @@ a:visited {
 
 }
 
-@media only screen and (max-width:2000px) and (min-width: 200px) {
+@media only screen and (max-width:1800px) and (min-width: 200px) {
 	.content {
 		max-width:500px;
 	}
