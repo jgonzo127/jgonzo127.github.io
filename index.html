@@ -6,7 +6,9 @@
 	<title>Jordan Gonzales- Web Designer</title>
 	<link rel="stylesheet" href="CSS/style.css">
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,500,300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
 </head>
 
 
@@ -15,7 +17,7 @@
 <nav class="top-nav" id="top">	
 	<div class="content">
 		<ul class="links">
-			<li><a href="index.html">Home</a></li>
+			<li><a href="#top">Home</a></li>
 			<li><a href="#intro-h1">About Me</a></li>
 			<li><a href="#port">Portfolio</a></li>
 			<li><a href="#cont">Contact</a></li>
@@ -45,7 +47,7 @@
 <section class="portfolio" > 
 	<div class="content">
 		<h1>Take a look at my work!</h1>
-		<ul class="port-work">
+		<ul class="port-work" id="cont">
 			<li><a href="https://jgonzo127.github.io/startup_landing_page_clone"><img src="img/startup-page.jpg">Startup Page Clone</a></li>
 			<li><a href="https://jgonzo127.github.io/animated_page/"><img src="img/tugboat-anm.jpg">Tugboat Animation</a></li>
 			<li><a href="https://jgonzo127.github.io/mars_page/"><img src="img/mars-page.jpg">Mars Info Page</a></li>
@@ -55,25 +57,26 @@
 	</div>
 </section>
 
-<footer class="contact" id="cont">
+<footer class="contact">
 	<div class="content">
-		<h1>Say Hi To Me!</h1>
-			<h2>Or send me an email:</h2>
-			<form action="MAILTO:jgonzo127@gmail.com" method="post" enctype="text/plain">
-			Name:<br>
-			<input type="text" name="name" value="your name"><br>
-			E-mail:<br>
-			<input type="text" name="mail" value="your email"><br>
-			Comment:<br>
-			<textarea type="text" name="comment" value="your comment" size="50"></textarea><br>
-			<input type="submit" value="Send">
-			<input type="reset" value="Reset">
-			</form>
-		<ul class="icons">
+		<h1 >Say Hi To Me!</h1>
+			<ul class="icons">
 			<li><a href="https://github.com/jgonzo127"><i class="fa fa-github fa-2x"></i></a></li>
 			<li><a href="https://www.facebook.com/jordan.gonzales1"><i class="fa fa-facebook fa-2x"></i></a></li>
 			<li><a href="https://plus.google.com/u/0/100514688037886973756/posts"><i class="fa fa-google-plus fa-2x"></i></a></li>
 		</ul>
+			<h2>Or send me an email:</h2>
+			<form action=enctype="text/plain" "mailto:jgonzo127@gmail.com" method="post" >
+			Name:<br>
+			<input type="text" name="name" placeholder="your name"><br>
+			E-mail:<br>
+			<input type="text" name="mail" placeholder="your email"><br>
+			Comment:<br>
+			<textarea type="text" name="comment" placeholder="your comment" rows="5" cols="50"></textarea><br>
+			<input type="submit" value="Send">
+			<input type="reset" value="Reset">
+			</form>
+		
 		<div class ="footer"><a href="#top"><p>Back to Top</p></a></div>
 	</div>
 

@@ -74,7 +74,7 @@ nav {
 .top-nav {
 	width: 100%;
 	padding: 0.5em;
-	background-color: darkorange;
+	background-color: #C76A11;
 	
 }
 
@@ -93,10 +93,13 @@ nav {
 	-webkit-box-shadow: 0.15em 0.15em 0.05em black;
 	-moz-box-shadow: 0.15em 0.15em 0.05em black;
 	padding: 0.35em;
+	background-color: #05627A;
+	
 }
 
 .links a {
 	padding: 1em;
+
 }
 
 a {
@@ -115,20 +118,21 @@ a:visited {
 	background-repeat: no-repeat;
 	background-position: 0px -180px;
 	background-size: cover;
-	margin-top: 0.5em;
+	margin-top: 0.25em;
 	line-height: 2;
 	margin-bottom: 2em;
 	padding-bottom: 2.5em;
 	width: 100%;
-	max-height: 600px;
-
+	max-height: 800px;
+	font-family: 'Lobster', sans-serif;
+	color:#00617A;
+	
 
 }
 
 .welcome-intro {
-	padding-top: 6em;
-	font-size: 2em;
-	color: darkblue;
+	padding-top: 4em;
+	font-size: 3em;
 	text-shadow: 1px 1px #000;
 	vertical-align:middle;
 
@@ -136,10 +140,10 @@ a:visited {
 
 .welcome-text {
 	font-size: 4em;
-	color: darkblue;
 	text-shadow: 1px 1px #000;
 	vertical-align:middle;
 	padding-bottom: .5em;
+	
 }
 
 
@@ -177,6 +181,8 @@ a:visited {
 	margin-bottom: 1em;
 	font-weight: bold;
 	font-size: 2em;
+	color: #00617A;
+	font-family: "Lobster", sans-serif;
 }
 
 .portfolio {
@@ -187,7 +193,15 @@ a:visited {
 	margin-bottom: 3.5em;
 	font-size: 2em;
 	font-weight: bold;
+	color: #00617A;
+	font-family: "Lobster", sans-serif;
 }
+
+.port-work {
+	margin-right: 50px;
+}
+
+
 .port-work li {
 	display: inline-block;
 	width: 15%;
@@ -204,13 +218,38 @@ a:visited {
 	-moz-border-radius: 75px;
 	border-radius: 75px;
 	border: 4px solid black;
-	margin-bottom: 2.5em;
+	margin-bottom: 0.25em;
 	background-position: fixed;
 	background-size: fill;
 	width: 150px;
 	height: 150px;
-	image-o
+
 	
+}
+
+.icons {
+	margin-right: 2.5em;
+
+}
+
+.icons li {
+	font-family: font-awesome;
+	display: inline-block;
+	margin-top: 4em;
+	font-size: 1.5em;
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+
+}
+.icons a:link {
+	color:#00617A;
+}
+
+.icons a:visited {
+	color:#00617A;
+
 }
 
 
@@ -218,13 +257,16 @@ a:visited {
 	margin-top: 5em;
 	font-weight: bold;
 	font-size: 2em;
+	color: #00617A;
+	font-family: "Lobster", sans-serif;
 }
 
 .contact h2 {
 	margin-top: 3em;
-	font-size: 1.5em;
-
+	font-size: 1.75em;
+	font-family: "Lobster", sans-serif;
 }
+
 
 .contact form {
 	font-size: 1.15em;
@@ -235,30 +277,19 @@ a:visited {
 	margin: 1em 0 1em 0;
 }
 
-.icons {
-	display: block;
-	margin-top: 2em;
-}
-
-.icons li {
-	font-family: font-awesome;
-	display: inline-block;
-	margin: 0em 0.5em;
-	padding: 1em;
-	margin-top: 8em;
-	font-size: 1.5em;
-	
-}
 
 
 .footer {
 	padding: 2em 0 2em 0;
 	border: 1px solid black; 
 	border-radius: 10px;
-	background-color: darkorange;
+	background-color: #C76A11;
 	margin-top: 1em;
 	font-weight: bold;
+	color: #00617A;
+	font-family: "Lobster", sans-serif;
 }
+
 
 .footer a {
 	padding: 1em 25em 1em;
@@ -266,9 +297,10 @@ a:visited {
 
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1500px) {
 	.welcome {
 		max-height: 900px;
+		background-position: 0px -20px;
 	}
 }
 
@@ -277,11 +309,13 @@ a:visited {
 @media only screen and (max-width: 794px) {
 	.content {
 		max-width:500px;
+		
 	}
 	.welcome {
-		height: 600px;
+		height: 850px;
 		background-position: 0px;
 		background-size: cover;
+		background-position: 0px -180px;
 	}
 
 	.introduction-section p {
@@ -298,6 +332,10 @@ a:visited {
 		margin-right: auto;
 		margin-left: auto;
 		
+	}
+
+	.port-work {
+		margin: 0;
 	}
 
 	.top p {
