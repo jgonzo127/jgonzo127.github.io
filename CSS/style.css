@@ -337,9 +337,8 @@ a:visited {
 		margin-top: 2em;
 	}
 	
-		.port-work li {
+	.port-work li {
 		width: 25%;
-		text-align: left;
 		
 		
 	}
@@ -386,9 +385,6 @@ a:visited {
 		
 	}
 
-	.port-work {
-		margin: 0;
-	}
 
 	.top p {
 		margin-left: auto;
