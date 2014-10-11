@@ -223,9 +223,10 @@ a:visited {
 	font-size: 1.15em;
 	vertical-align: top;
 	text-align: center;
-	
+	clear: both;
 
 }
+
 
 .port-work img {
 	-webkit-border-radius: 75px;
@@ -237,6 +238,21 @@ a:visited {
 	background-size: fill;
 	width: 150px;
 	height: 150px;
+	transition: all 1s;
+	-moz-transition: all 1s;
+	-webkit-transition: all 1s;
+}
+
+.port-work img:hover {
+	width: 180px;
+	height: 180px; 
+	padding: 5px;
+	-webkit-border-radius: 90px;
+	-moz-border-radius: 90px;
+	border-radius: 90px;
+	
+
+}
 
 	
 }
