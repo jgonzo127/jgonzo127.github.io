@@ -126,10 +126,6 @@ a:visited {
 
 
 .welcome {
-	background-image:url("../img/ptown.JPG");
-	background-repeat: no-repeat;
-	background-position: 0px -180px;
-	background-size: cover;
 	margin-top: 0.25em;
 	line-height: 2;
 	margin-bottom: 4em;
@@ -138,11 +134,23 @@ a:visited {
 	max-height: 800px;
 	font-family: 'Lobster', sans-serif;
 	color:#00617A;
-
-
-	
-
 }
+
+.welcome-bg {
+	background-image:url("../img/ptown.JPG");
+	background-size: cover;
+	background-position: 0px, 380px;
+	width: 100%;
+	height: 700px;
+	position: absolute;
+	z-index: -1;
+	filter: blur(2px);
+	-webkit-filter: blur(2px);
+	-moz-filter: blur(2px);
+	-o-filter: blur(2px);
+	-ms-filter: blur(2px);
+}
+	
 
 .welcome-intro {
 	padding-top: 4em;
