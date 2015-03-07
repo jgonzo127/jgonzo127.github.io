@@ -106,7 +106,7 @@ nav {
 }
 
 .links li:hover {
-	border: 2px inset black;
+	border: 2px inset gray;
 }
 
 .links a {
