@@ -1,0 +1,38 @@
+
+.sub-border {
+  -webkit-animation:spin-counter 110s linear infinite;
+    -moz-animation:spin-counter 110s linear infinite;
+    animation:spin-counter 110s linear infinite;
+}
+
+
+.border {
+  -webkit-animation:spin 110s linear infinite;
+    -moz-animation:spin 110s linear infinite;
+    animation:spin 110s linear infinite;
+}
+
+
+.about {
+      -webkit-animation:bounce 1.5s linear alternate infinite;
+    -moz-animation:bounce 1.5s linear alternate infinite;
+    animation:bounce 1.5s linear alternate infinite;
+}
+
+
+
+/* animation */
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+@-moz-keyframes spin-counter { 100% { -moz-transform: rotate(-360deg); } }
+@-webkit-keyframes spin-counter { 100% { -webkit-transform: rotate(-360deg); } }
+@keyframes spin-counter { 100% { -webkit-transform: rotate(-360deg); transform:rotate(360deg); } }
+
+ @-moz-keyframes bounce { 100% {-moz-transform:translateX(8px) translateY(5px); } }
+
+ @-webkit-keyframes  bounce { 100% {-webkit-transform:translateX(8px) translateY(5px); } }
+
+ @keyframes bounce  { 100% {transform:translateX(8px), translateY(5px); } }
