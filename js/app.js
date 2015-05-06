@@ -1,27 +1,30 @@
 $(document).ready(function() {
  
+ // hides center hud w/ animated scale effect 
 	 function hideHud() {
 		$(".hud, .options").removeClass('grow').addClass('hudScale').slideUp();
 
 	
 	}; 
 
+ // shows center hud w/ animated scale effect 
+
 	function showHud() {
 		$(".hud, .options").removeClass('hudScale').addClass('grow').slideDown();
 		 $('.hud').one('webkitAnimationEnd oanimationend msAnimationEnd animationend',   
     function(e) {
-    
-
-    $('.hud').removeClass('grow');
+    	$('.hud').removeClass('grow');
     }
 );
 	};
+
+//shows a miniature version of the hud that can be used to return to main page
 
 	function showX() {
 		$(".ex").show();
 	}
 
-
+//main click function
 		$('.hud').on('click', function() {
 			$(this).css({"border-color": "#9DFCF0"});
      		$('.options').css({"visibility":"visible"}).hide().fadeIn();
@@ -43,7 +46,7 @@ $(document).ready(function() {
 			$(this).parent().find("i").css({"visibility":"visible"}).hide().fadeIn();
 		})
 
-
+//mouseover effects
 		$('.contact').mouseleave(function() {
 			$(this).parent().find("i").css({"visibility":"hidden"});
 		})
@@ -58,12 +61,13 @@ $(document).ready(function() {
 		})
 
 
+//shows desired page and hides center hud
 
 		  $(".port-link").on('click', function(x) {
 		  	(x).preventDefault();
 		  	hideHud();
 		  	showX();
-		  	console.log("cool");
+		  	
 		  
 		  	$(".portfolio-content").show();
 		});
@@ -81,6 +85,8 @@ $(document).ready(function() {
 		  	showX();
 		  	$(".about-content").show();
 		});
+
+//hides miniature hud and returns user to main hud
 
 		    $('.ex').on('click', function(){
 		    	showHud();
