@@ -107,7 +107,7 @@ text-align:center;
         translateY(-10px)
         translateX(125px)
         rotate(27deg);
-        transform:
+        -ms-transform:
         translateY(-10px)
         translateX(125px)
         rotate(27deg);   
@@ -131,7 +131,7 @@ text-align:center;
     translateY(33px)
     translateX(-38px)
     rotate(150deg);
-    transform:
+    -ms-transform:
     translateY(33px)
     translateX(-38px)
     rotate(150deg);    
