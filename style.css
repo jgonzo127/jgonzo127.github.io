@@ -8,14 +8,15 @@ body {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%;
- font-family:"Orbitron";
+ font-family:"Ubuntu Condensed";
+ font-size: 25px;
   color:white;
-  font-size:20px;
+
 }
 
   
 .nav {
-  background-color:black;
+  background-color:#0c5078;
   height: 80px;
  margin:0px;
  position:fixed-top;
@@ -77,6 +78,7 @@ text-align:center;
 .options a {
  color: white;
  padding: 15px;
+ text-decoration: none;
 }
 
 .options i {
@@ -86,7 +88,7 @@ text-align:center;
 
 .about {
   
-  margin-right: 611px;
+  margin-right: 624px;
 
 }
 
@@ -99,16 +101,16 @@ text-align:center;
     height: 47px;
     border-bottom: 1px solid white;
     -webkit-transform:
-        translateY(-10px)
-        translateX(125px)
+        translateY(-12px)
+        translateX(120px)
         rotate(27deg);
         -moz-transform:
-        translateY(-10px)
-        translateX(125px)
+        translateY(-12px)
+        translateX(120px)
         rotate(27deg);
         -ms-transform:
-        translateY(-10px)
-        translateX(125px)
+        translateY(-12px)
+        translateX(120px)
         rotate(27deg);   
 
     position: absolute;
@@ -123,24 +125,24 @@ text-align:center;
     height: 47px;
     border-bottom: 1px solid white;
     -webkit-transform:
-        translateY(33px)
-        translateX(-38px)
+        translateY(30px)
+        translateX(-45px)
         rotate(150deg);
         -moz-transform:
-    translateY(33px)
-    translateX(-38px)
+    translateY(30px)
+    translateX(-45px)
     rotate(150deg);
     -ms-transform:
-    translateY(33px)
-    translateX(-38px)
+    translateY(30px)
+    translateX(-45px)
     rotate(150deg);    
     position: absolute;
 
 }
 
 .contact {
-  margin-top: -10px;
-  margin-left: 618px;
+  margin-top: -18px;
+  margin-left: 616px;
   
 }
 
@@ -150,7 +152,7 @@ text-align:center;
 }
 
 .portfolio {
-  margin-top: 384px;
+  margin-top: 387px;
 }
 
 .portfolio-line {
@@ -158,15 +160,15 @@ text-align:center;
     height: 47px;
     border-bottom: 1px solid white;
     -webkit-transform:
-        translateY(-60px)
+        translateY(-65px)
         translateX(46px)
         rotate(90deg);
     -moz-transform:
-        translateY(-60px)
+        translateY(-65px)
         translateX(46px)
         rotate(90deg);
         -ms-transform:
-        translateY(-60px)
+        translateY(-65px)
         translateX(46px)
         rotate(90deg);         
     position: absolute;
@@ -223,8 +225,7 @@ text-align:center;
   margin: 200px auto 0px auto;
   width: 800px;
   text-align:center;
-   font-family:"Ubuntu Condensed";
-   font-size: 25px;
+   
 }
 
 .about-content {
@@ -253,13 +254,13 @@ text-align:center;
 
 .port-work {
   text-align: center;
+
 }
 
 .port-work li {
 	display: inline-block;
 	width: 20%;
 	margin: 15px 30px 15px 0px;
-	font-size: 1.15em;
 	vertical-align: top;
 	clear: both;
 
@@ -267,6 +268,7 @@ text-align:center;
 
 .port-work a {
   color:white;
+  text-decoration: none;
 }
 
 
