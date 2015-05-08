@@ -26,7 +26,7 @@ $(document).ready(function() {
 
 //main click function
 		$('.hud').on('click', function() {
-			$(this).css({"border-color": "#9DFCF0"});
+			$(".hud").css({"background-image": "url('img/center-logo-light.png')"});
      		$('.options').css({"visibility":"visible"}).hide().fadeIn();
      		$('.border').css({"visibility":"visible"}).hide().fadeIn();
      		$('.sub-border').css({"visibility":"visible"}).hide().fadeIn();
@@ -98,8 +98,7 @@ $(document).ready(function() {
 		    });
 
 
-
-
+		 
 
 
   

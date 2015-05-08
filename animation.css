@@ -17,15 +17,10 @@ div .sub-border {
     -moz-animation:glow 0.75s alternate infinite;
     -ms-animation:glow 0.75s alternate infinite;
     animation:glow 0.75s alternate infinite;
+ 
 }
 
-.glow {
-	-webkit-animation:glow 0.75s alternate infinite;
-    -moz-animation:glow 0.75s alternate infinite;
-    animation:glow 0.75s alternate infinite;
-    -ms-animation:glow 0.75s alternate infinite;
 
-}
 
 .about {
       -webkit-animation:bounce 1.25s linear alternate infinite;
@@ -113,3 +108,4 @@ div .sub-border {
 0% { box-shadow: 0px 0px 10px #9DFCF0; }
 100% { box-shadow: 0px 0px 30px #9DFCF0; }
 }
+
